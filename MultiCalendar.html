@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    header {
+    left: 0;
+    background-color: #ffffff; /* 選擇您喜歡的顏色 */
+    width: 100%; /* 設定寬度為 100%，即滿寬 */
+    height: 100px; /* 設定高度為 60px */
+    position: fixed;
+    top: 0px; /* 將上邊距設置為 0 */
+    z-index: 1; /* 將色塊設置在背景之前 */
+    }
+    body {
+    overflow-x: hidden;
+}
+
+
+    buttonM {
+      margin-left: 300px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonW {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonO {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonU {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonOP {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonS {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonB {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonSO {
+      margin-left: 30px;
+      font-size: 16px;
+      color: #000000;
+      cursor: pointer;
+    }
+    buttonmain {
+    font-weight: 400; /* 或其他你想要的數值 */
+    color: #000144; /* 設定文字顏色為白色 */
+    top:70px; /* 將上邊距設置為 0 */
+    margin-bottom: 0px; /* 添加一些下邊距，根據需要調整 */
+    margin-left: 20px;
+    font-size: 30px; /* 調整文字大小，根據需要調整 */
+    cursor: pointer;
+    }
+    h2 {
+    position: relative;
+    color: #000144; /* 設定文字顏色為白色 */
+    top:130px; /* 往下移動 20px */
+    margin-left: 200px;
+    font-size: 70px; /* 調整文字大小，根據需要調整 */
+    font-weight: 900; /* 或其他你想要的數值 */
+    }
+    h3 {
+    position: relative;
+    color: #000000; 
+    top:130px; /* 往下移動 20px */
+    margin-left: 200px;
+    font-size: 30px; /* 調整文字大小，根據需要調整 */
+    font-weight: 400; /* 或其他你想要的數值 */
+    }
+    h4{
+    position: relative;
+    color: #000144; /* 設定文字顏色為白色 */
+    top:180px; /* 往下移動 20px */
+    font-size: 55px; /* 調整文字大小，根據需要調整 */
+    font-weight: 400; /* 或其他你想要的數值 */ 
+    text-align: center; /* 水平置中 */
+    }
+    h6{
+    position: relative;
+    color: #000144; /* 設定文字顏色為白色 */
+    top:150px; /* 往下移動 20px */
+    font-size: 25px; /* 調整文字大小，根據需要調整 */
+    font-weight: 400; /* 或其他你想要的數值 */ 
+    text-align: center; /* 水平置中 */
+    }
+    h5{
+    position: relative;
+    color: #000000; /* 設定文字顏色為白色 */
+    top:600px; /* 往下移動 20px */
+    font-size: 25px; /* 調整文字大小，根據需要調整 */
+    font-weight: 1; /* 或其他你想要的數值 */ 
+    left: -1500px;
+    white-space: nowrap;
+    }
+    h7{
+    position: relative;
+    color: #000000; /* 設定文字顏色為白色 */
+    top:180px; /* 往下移動 20px */
+    font-size: 35px; /* 調整文字大小，根據需要調整 */
+    font-weight: 900; /* 或其他你想要的數值 */ 
+    left: 200px;
+    white-space: nowrap;
+    }
+    h8{
+    position: relative;
+    color: #000000; /* 設定文字顏色為白色 */
+    top:250px; /* 往下移動 20px */
+    font-size: 20px; /* 調整文字大小，根據需要調整 */
+    font-weight: 1; /* 或其他你想要的數值 */ 
+    left: 100px;
+    white-space: nowrap;
+    }
+    h9{
+    position: relative;
+    color: #000000; /* 設定文字顏色為白色 */
+    top:-300px; /* 往下移動 20px */
+    font-size: 35px; /* 調整文字大小，根據需要調整 */
+    font-weight: 900; /* 或其他你想要的數值 */ 
+    left: 400px;
+    white-space: nowrap;
+    }
+    h10{
+    position: relative;
+    color: #000000; /* 設定文字顏色為白色 */
+    top:-200px; /* 往下移動 20px */
+    font-size: 20px; /* 調整文字大小，根據需要調整 */
+    font-weight: 1; /* 或其他你想要的數值 */ 
+    white-space: nowrap; /* 防止換行 */
+    left: -100px;
+    }
+    h11{
+    position: relative;
+    color: #000000; /* 設定文字顏色為白色 */
+    top:-200px; /* 往下移動 20px */
+    font-size: 20px; /* 調整文字大小，根據需要調整 */
+    font-weight: 1; /* 或其他你想要的數值 */ 
+    white-space: nowrap; /* 防止換行 */
+    left: 200px;
+    }
+    .imgs1 {
+      width: 100%;
+      max-width: 100px;
+      height: auto;
+      display: block;
+      margin: 0;
+      float: left;
+      margin-left: 30px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .imgs2 {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      display: block;
+      margin: 0;
+      float: left;
+      margin-left: 900px;
+      margin-top: -500px;
+      margin-bottom: 30px;
+    }
+    .imgs3 {
+      width: 100%;
+      max-width: 1500px;
+      height: auto;
+      display: block;
+      margin: 0;
+      float: left;
+      margin-left: 170px;
+      margin-top: 130px;
+      margin-bottom: 30px;
+    }
+    .imgs4 {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 0;
+      float: left;
+      margin-left: 300px;
+      margin-top: 130px;
+      margin-bottom: 30px;
+    }
+    .imgs5 {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 0;
+      float: left;
+      margin-left: 250px;
+      margin-top: 570px;
+      margin-bottom: 30px;
+    }
+    button {
+      display: block;
+      margin: 20px 0;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #59cf8a;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      margin-left: 200px;
+      margin-top: 180px;
+      margin-bottom: 60px;
+    }
+    .background-block {
+      position: absolute;
+      width: 99%;
+      height: 800px;
+      background-color: #e0f8e9; /* 色塊背景色 */
+      z-index: -1; /* 將色塊設置在背景之後 */
+      margin-top: 150px;
+    }
+    .background-w{
+      position: absolute;
+      width: 99%;
+      height: 60px;
+      background-color: #000000; /* 色塊背景色 */
+      z-index: -2; /* 將色塊設置在背景之後 */
+      margin-top: 100px;
+    }
+    </style>
+    <head>
+        <meta charset="UTF-8"></meta>
+        <title>HappyJ</title>
+    </head>
+    <body>
+        <header>
+            <img class="imgs1" src="https://raw.githubusercontent.com/hsu0920/image/main/Happy%20J.jpg">
+            <br><br>
+            <buttonmain onclick="Happyj()">Happy J Service</buttonmain>
+            <buttonM onclick="MultiCalendarb()">MultiCalendar</buttonM>
+            <buttonW onclick="WordPressPlugin()">WordPress Plugin</buttonW>
+            <buttonW onclick="OnlineCheckln()">Online Check-ln</buttonW>
+            <buttonW onclick="UnifiedInbox()">Unified Inbox</buttonW>
+            <buttonW onclick="OwnersPortal()">Owners Portal</buttonW>
+            <buttonW onclick="SmartAutomations()">Smart Automations</buttonW>
+            <buttonW onclick="BookingWebsite()">Booking Website</buttonW>
+            <buttonW onclick="SocialMediaManagement()">Social Media Management</buttonW>
+        </header>
+        <h2>Multi Calendar<br>For<br>Vacation Rentals</h2>
+        <h3>Manage your bookings, rates, and availability<br>in one easy-to-see calendar. All the listings at a glance!</h3>
+        <button>Learn more ></button>
+        <img class="imgs2" src="calendarmain.png">
+        <div class="background-block"></div>
+          <h4><br>Make your own rules</h4>
+          <h6>Set pricing for weekdays and weekends to maximize your income. Choose relative pricing and change by percentage.<br>Get an overview of the minimum stay for each date on the calendar and keep track of important details.<br>Ensure your team is up to date with internal notes. They’re your properties. You make the rules.</h6>
+          <img class="imgs3" src="calendar.png">
+        <div class="content">
+        <h5>© 2024 Happy J Service </h5>
+          <script>
+            // 定義點擊事件時的操作
+            function Happyj() {
+              window.location.href = ' https://hsu0920.github.io/HappyJ/'; // 跳轉到指定網址
+            }
+            function MultiCalendarb() {
+              window.location.href = 'MultiCalendar.html'; // 跳轉到指定網址
+            }
+            function WordPressPlugin() {
+              window.location.href = 'http://youtube.com'; // 跳轉到指定網址
+            }
+            function OnlineCheckln() {
+              window.location.href = 'website.html'; // 跳轉到指定網址
+            }
+            function UnifiedInbox() {
+              window.location.href = 'http://youtube.com'; // 跳轉到指定網址
+            }
+            function OwnersPortal() {
+              window.location.href = 'http://youtube.com'; // 跳轉到指定網址
+            }
+            function SmartAutomations() {
+              window.location.href = 'http://youtube.com'; // 跳轉到指定網址
+            }
+            function BookingWebsite() {
+              window.location.href = 'http://youtube.com'; // 跳轉到指定網址
+            }
+            function SocialMediaManagement() {
+              window.location.href = 'http://youtube.com'; // 跳轉到指定網址
+            }
+           
+          </script>
+    </body>
+</html>
